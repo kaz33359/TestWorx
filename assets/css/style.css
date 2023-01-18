@@ -12098,7 +12098,7 @@ blockquote {
   align-items: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: center; }
   .copyright-inner p {
     opacity: 0.7;
     font-size: 14px;
