@@ -673,10 +673,10 @@ a.theme-btn {
     height: 50px;
     border-radius: 50%;
     position: absolute;
-    border: 15px solid #1B76FF;
+    border: 15px solid #010101;
     animation: animate_1 1.73s ease-in-out infinite both reverse; }
   .preloader .theme-loader:after {
-    border-color: #0D47A1;
+    border-color: #646464;
     -webkit-animation-delay: -0.86s;
     animation-delay: -0.86s; }
 
