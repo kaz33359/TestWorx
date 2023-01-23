@@ -144,7 +144,7 @@ textarea,
   padding: 16px 30px;
   border-radius: 5px;
   background-color: #fff;
-  border: 2px solid #cfdbf1; }
+  border: 2px solid #010101; }
 
 textarea {
   display: inherit;
@@ -360,12 +360,12 @@ a.theme-btn {
   .theme-btn.style-three,
   a.theme-btn.style-three {
     padding: 11px 40px;
-    color: #104cba;
-    background: #e5eef6; }
+    color: #fff;
+    background: #010101; }
     .theme-btn.style-three:hover,
     a.theme-btn.style-three:hover {
-      color: #e5eef6;
-      background: #104cba; }
+      color: #fff;
+      background: #010101; }
   .theme-btn.style-four,
   a.theme-btn.style-four {
     padding: 11px 35px;
@@ -610,7 +610,7 @@ a.theme-btn {
     content: "\f00c";
     font-weight: 700;
     margin-right: 20px;
-    color: #104cba;
+    color: #010101;
     font-family: 'Font Awesome 5 Free'; }
 
 /** Social Link Style One **/
@@ -1061,7 +1061,7 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
 .service-normal .icon i, .service-style-two .icon i, .service-three-item .icon i, .feature-item .icon i, .work-progress-item .icon i, .pricing-item-three .icon i {
   font-size: 70px;
   display: inline-block;
-  color: #104cba;
+  color: #010101;
   margin-bottom: 20px; }
 
 /*******************************************************/
@@ -6663,12 +6663,12 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
   border-radius: 5px;
   position: relative;
   overflow: hidden; }
-  .service-box:hover .service-normal {
+  /* .service-box:hover .service-normal {
     -webkit-transform: translateY(100%);
     -ms-transform: translateY(100%);
     transform: translateY(100%); }
   .service-box:hover .service-hover {
-    bottom: 0; }
+    bottom: 0; } */
 
 .service-normal,
 .service-hover {
@@ -9279,7 +9279,7 @@ blockquote {
     left: 0;
     position: absolute;
     top: calc(100% + 10px);
-    background: #104cba; }
+    background: #010101; }
   .comment-title:before {
     content: '';
     width: 5px;
@@ -9339,7 +9339,7 @@ blockquote {
     right: 15px;
     top: 12px;
     padding: 5px 10px;
-    color: #104cba; }
+    color: #010101; }
 
 /*******************************************************/
 /********************* 17. Wedgets *********************/
