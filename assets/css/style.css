@@ -237,7 +237,7 @@ input[type=checkbox], input[type=radio] {
 .section-title .sub-title {
   font-weight: 500;
   margin-bottom: 20px;
-  color: #104cba;
+  color: #010101;
   display: inline-block; }
 
 @media only screen and (max-width: 480px) {
@@ -314,7 +314,7 @@ input[type=checkbox], input[type=radio] {
 /** Button style **/
 .theme-btn,
 a.theme-btn {
-  background: #104cba;
+  background: #010101;
   font-size: 16px;
   color: white;
   cursor: pointer;
@@ -583,7 +583,7 @@ a.theme-btn {
     margin-right: 15px;
     width: 35px;
     height: 35px;
-    background: #104cba;
+    background: #010101;
     line-height: 35px;
     border-radius: 50%;
     text-align: center;
@@ -732,12 +732,12 @@ a.theme-btn {
   border-radius: 5px;
   -webkit-animation: pulse 2s infinite;
   animation: pulse 2s infinite;
-  background: #135be0; }
+  background: #010101; }
 
 /* Text White */
 .text-white *,
 .text-white a {
-  color: white; }
+  color: #010101; }
 
 /* Overlay */
 .overlay {
@@ -822,7 +822,7 @@ a.theme-btn {
   background-color: #222f5a; }
 
 .bg-lighter {
-  background-color: #e5eef6; }
+  background-color: #f8f9fa; }
 
 /* Border Radius */
 .br-5 {
@@ -1054,9 +1054,9 @@ a.theme-btn {
 /******************* 03. Repeat Style ******************/
 /*******************************************************/
 h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
-  font-weight: 800;
+  font-weight: 300;
   color: #000000;
-  font-family: "Nunito", sans-serif; }
+  font-family: "ALS Schlange Sans",sans-serif; }
 
 .service-normal .icon i, .service-style-two .icon i, .service-three-item .icon i, .feature-item .icon i, .work-progress-item .icon i, .pricing-item-three .icon i {
   font-size: 70px;
@@ -7262,7 +7262,7 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
 
 /* Style Two */
 .fact-counter-color .success-item .count-text {
-  color: #104cba; }
+  color: #010101; }
 
 .fact-counter-color .success-item p {
   color: #000000; }
@@ -12117,11 +12117,11 @@ blockquote {
 
 /* Footer Two */
 .footer-two {
-  background-color: #0e1e2a; }
+  background-color: #fff; }
   .footer-two .footer-widget-area {
     background: transparent; }
-  .footer-two .copyright-area {
-    border-top: 1px solid #223452; }
+  /* .footer-two .copyright-area {
+    border-top: 1px solid #223452; } */
   .footer-two p,
   .footer-two .text,
   .footer-two .list-style-two,
