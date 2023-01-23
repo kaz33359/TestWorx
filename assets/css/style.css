@@ -144,7 +144,8 @@ textarea,
   padding: 16px 30px;
   border-radius: 5px;
   background-color: #fff;
-  border: 2px solid #010101; }
+  /* border: 2px solid #010101; */
+ }
 
 textarea {
   display: inherit;
@@ -6262,7 +6263,8 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
     position: absolute;
     width: 130px;
     height: 100px;
-    background: url(../images/about/about-bg-dots.png) no-repeat; }
+    /* background: url(../images/about/about-bg-dots.png) no-repeat; */
+   }
   .about-two-image img,
   .about-three-image img {
     border-radius: 220px 220px 0 0; }
@@ -7033,7 +7035,7 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
     position: absolute;
     width: 15px;
     height: 15px;
-    background: #2969E6;
+    background: #010101;
     line-height: 15px;
     border-radius: 50%;
     text-align: center;
@@ -7045,7 +7047,7 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: #FF7A41;
+    background: #010101;
     line-height: 10px;
     border-radius: 50%;
     text-align: center;
