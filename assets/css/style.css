@@ -6157,9 +6157,11 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
     bottom: 0;
     z-index: -1;
     position: absolute;
-    background: url(../images/about/about-bg-shape.png) no-repeat bottom; }
+    background: url(../images/about/about-bg-shape.png) no-repeat bottom;
+   }
   .about-section.style-four:after, .about-section.style-five:after {
-    background: url(../images/about/about-four-bg-shape.png) no-repeat bottom; }
+    /* background: url(../images/about/about-four-bg-shape.png) no-repeat bottom; */
+   }
   .about-section .fact-counter-inner {
     -webkit-transform: translateY(50%);
     -ms-transform: translateY(50%);
