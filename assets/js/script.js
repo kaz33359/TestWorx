@@ -828,8 +828,7 @@
     window.onload = function(){
         swal.fire({
           title: "TestWorx",
-          text: "Software testing company",
-          footer:
+          html:
             'Have any quires? <a href="contact.html"> Get in touch with us</a>',
         });
       setTimeout(5000);
