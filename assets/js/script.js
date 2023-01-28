@@ -827,9 +827,29 @@
 
     window.onload = function(){
         swal.fire({
-          title: "TestWorx",
+          title: "Software Testing Company",
+            html:
+              'Have any quires? <a href="contact.html"> Get in touch with us</a>',
+          imageUrl:
+            "https://kaz33359.github.io/TestWorx/assets/images/testworx/logo/dark_logo.png",
+          imageWidth: 300,
+          imageHeight: 40,
+        });
+      setTimeout(3000);
+    }
+
+    function contact() {
+        swal.fire({
+          title: "<strong>Thank you!</strong>",
+          icon: "success",
           html:
-            'Have any quires? <a href="contact.html"> Get in touch with us</a>',
+            "Thank you for reaching out!, " +
+            "We'll get back to you shortly",
+        //   showCloseButton: true,
+        //   showCancelButton: true,
+          focusConfirm: false,
+          confirmButtonText: 'Close',
+          confirmButtonAriaLabel: "Thumbs up, great!",
         });
       setTimeout(30000);
     }
