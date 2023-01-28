@@ -1,0 +1,51 @@
+
+.container{
+  width: 1600px;
+  margin: auto;
+}
+
+.subcontainer{
+  width: 85%;
+  margin: auto;
+}
+
+#cookies{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: #fff;
+  background-color: #010101;
+  z-index: 1;
+  /* display: none; */
+}
+
+.cookies{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#cookies-btn{
+  border-radius: 5px;
+  padding: 6px 14px 6px 14px;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  background-color: #010101;
+  border: solid 1px;
+  color: #fff;
+}
+
+@media(max-width:1600px){
+  .container{
+    width: 100%;
+  }
+}
+@media(max-width:1024px){
+  .cookies{
+    padding: 10px 0;
+  }
+}

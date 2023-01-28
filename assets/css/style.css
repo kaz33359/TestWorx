@@ -722,7 +722,7 @@ a.theme-btn {
 /*** Scroll Top style ***/
 .scroll-top {
   position: fixed;
-  bottom: 30px;
+  bottom: 80px;
   right: 30px;
   z-index: 99;
   width: 40px;
