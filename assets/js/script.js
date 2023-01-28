@@ -831,6 +831,21 @@
           html:
             'Have any quires? <a href="contact.html"> Get in touch with us</a>',
         });
-      setTimeout(5000);
+      setTimeout(3000);
+    }
+
+    function contact() {
+        swal.fire({
+          title: "<strong>Thank you!</strong>",
+          icon: "success",
+          html:
+            "Thank you for reaching out!, " +
+            "We'll get back to you shortly",
+        //   showCloseButton: true,
+        //   showCancelButton: true,
+          focusConfirm: false,
+          confirmButtonText: 'Close',
+          confirmButtonAriaLabel: "Thumbs up, great!",
+        });
     }
   
