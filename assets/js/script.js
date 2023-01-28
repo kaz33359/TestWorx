@@ -831,6 +831,6 @@
           html:
             'Have any quires? <a href="contact.html"> Get in touch with us</a>',
         });
-      setTimeout(5000);
+      setTimeout(30000);
     }
   
