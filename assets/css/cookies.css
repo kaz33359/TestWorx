@@ -16,7 +16,7 @@
   color: #fff;
   background-color: #010101;
   z-index: 1;
-  /* display: none; */
+  display: none;
 }
 
 .cookies{
