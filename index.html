@@ -67,6 +67,8 @@
     <link rel="stylesheet" href="assets/css/slick.css" />
     <!--====== Main Style ======-->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/cookies.css" />
+
   </head>
 
   <body>
@@ -76,12 +78,47 @@
         <div class="theme-loader"></div>
       </div>
 
+      <!-- Whatsapp icon start -->
+    <style media="screen">
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 140px;
+            right: 20px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 2px #000;
+            z-index: 100;
+        }
+
+        .float:hover {
+            color: #0770b7;
+        }
+
+        .my-float {
+            margin-top: 16px;
+        }
+      
+            
+       
+    </style>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=447479014141" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <!-- Whatsapp icon end -->
+
       <!-- main header -->
       <header class="main-header header-one">
         <div class="header-top bg-lighter py-10">
           <div class="top-left">
             <ul>
-              <li><i class="fa fa-phone-alt"> :</i> <a href="callto:+44 747 9014141">+44 747 9014141</a></li>
+              <li><i class="fa fa-phone"> :</i> <a href="callto:+44 747 9014141">+44 747 9014141</a></li>
               <li>
                 <i class="fa fa-envelope"> :</i> <a href="mailto:info@testworx.co.uk">info@testworx.co.uk</a>
               </li>
@@ -975,7 +1012,7 @@
         <!-- Testimonial Section End -->
 
       <!-- Logo Section Start -->
-      <div class="logo-section py-120 rpy-50">
+      <div class="logo-section pt-100 rpy-50">
         <div class="container">
           <div class="logo-carousel-wrap">
             <div class="logo-item">
@@ -1081,6 +1118,81 @@
       </div>
       <!-- Logo Section End -->
 
+      <!-- Contact Area Start -->
+        <section class="contact-four py-100 rpy-100">
+            <div class="container">
+                <div class="contact-inner-four box-shadow p-35 rpx-25 br-5 bg-white">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="contact-section-form px-15 rpx-0 rmb-50 wow fadeInUp delay-0-2s">
+                                <div class="section-title mb-20">
+                                    <h2>Get In Touch</h2>
+                                </div>
+                                <form id="comment-form" class="comment-form mt-35" name="comment-form" action="" method="post">
+                                <div class="row clearfix justify-content-center">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="full-name"><i class="far fa-user"></i></label>
+                                            <input type="text" id="full-name" name="full-name" class="form-control" value="" placeholder="Your Full Name" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <label for="email"><i class="far fa-envelope"></i></label>
+                                            <input type="email" id="email" name="email" class="form-control" value="" placeholder="Your Email" required="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="comments"><i class="fas fa-pencil-alt"></i></label>
+                                            <textarea name="comments" id="comments" class="form-control" rows="4" placeholder="Write Message" required=""></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group mb-0">
+                                            <button type="submit"  class="theme-btn">Send Message</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-5">
+                            <div class="contact-image-number style-two bgs-cover overlay wow fadeInUp delay-0-4s" style="background-image: url(assets/images/contact/home-two.jpg);">
+                                <div class="contact-informations text-white">
+                                    <h3>Don't hesitate to contact us</h3>
+                                    <ul class="contact-info">
+                                        <li>
+                                            <i class="fas fa-phone-alt"></i>
+                                            <div class="content">
+                                                <span>Call Us</span>
+                                                <h5><a href="callto:+012-345-6789">+012-345-6789</a></h5>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-envelope"></i>
+                                            <div class="content">
+                                                <span>Write to Us</span>
+                                                <h5><a href="mailto:info@testworx.co.uk">info@testworx.co.uk</a></h5>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-clock"></i>
+                                            <div class="content">
+                                                <span>Office hours</span>
+                                                <h5>Mon-Sat 9:00 - 7:00</h5>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Area End -->
+
       <!-- Footer Area Start -->
       <footer
         class="main-footer footer-two bgs-cover text-white"
@@ -1179,6 +1291,20 @@
         </div>
       </footer>
       <!-- Footer Area End -->
+
+      <!-- cookies  -->
+      <div id="cookies">
+        <div class="container">
+          <div class="subcontainer">
+            <div class="cookies">
+              <p style="color: #fff; margin-bottom: 0px;">We use cookies on our website to improve its functionality and to enhance user experience.</p>
+              <button id="cookies-btn">Accept</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Cookies -->
+
     </div>
     <!--End pagewrapper-->
 
@@ -1203,6 +1329,7 @@
     <script src="assets/js/wow.js"></script>
     <!-- Custom script -->
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/custom.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
