@@ -834,7 +834,7 @@
           imageWidth: 300,
           imageHeight: 40,
         });
-    },3000);
+    },15000);
 
     // window.onload = function(){
     //     swal.fire({
