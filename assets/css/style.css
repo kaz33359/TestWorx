@@ -4455,8 +4455,9 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
   justify-content: space-between; }
 
 @media only screen and (max-width: 991px) {
-  .top-left {
-    display: none; } }
+  /* .top-left {
+    display: none; }  */
+  }
 
 .top-left ul {
   display: -webkit-box;
