@@ -7792,7 +7792,7 @@ h1, h2, h3, h4, h5, h6, .success-item .count-text, .pricing-header .price {
     transform: translateY(-50%);
     width: 125px;
     height: 125px;
-    background: #104cba;
+    /* background: #104cba; */
     line-height: 125px;
     border-radius: 50%;
     text-align: center; }
